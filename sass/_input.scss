@@ -1,0 +1,67 @@
+/* input */
+.input-group {
+  display: flex;
+}
+@media screen and (max-width: 739px) {
+  .input-group {
+    margin-top: 3.2rem;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 740px) {
+  .input-group {
+    margin-top: 3.8rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .email-input {
+    max-width: 48rem;
+    width: 100%;
+    margin-right: 3rem;
+  }
+}
+
+.email-input {
+  border: none;
+  outline: none;
+  font-family: var(--font-opensans);
+  font-weight: var(--weight-regular);
+  border-radius: var(--border-radius-default);
+}
+
+@media screen and (max-width: 739px) {
+  .email-input{
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 1.7rem;
+  }
+}
+@media screen and (min-width: 740px) {
+  .email-input{
+    line-height: 1.333;
+    font-size: 1.2rem;
+    padding: 1.6rem 3.8rem;
+  }
+}
+
+.email-input::placeholder {
+  color: #C0C0C0;
+}
+.email-input::-webkit-input-placeholder {
+  color: #C0C0C0;
+}
+.email-input::-moz-placeholder {
+  color: #C0C0C0;
+}
+.email-input:-ms-input-placeholder {
+  color: #C0C0C0;
+}
+.email-input:-moz-placeholder {
+  color: #C0C0C0;
+}
+
+@media (max-width: 739px) {
+  .email-input {
+    margin-bottom: 2.4rem;
+  }
+}
