@@ -1,0 +1,68 @@
+/* Intro section */
+.intro {
+  text-align: center;
+}
+@media screen and (max-width: 639px) {
+  .intro {
+    padding-top: 4.8rem;
+    background: url('/images/bg-curvy-mobile.svg'), linear-gradient(var(--color-lighter-bg) 61%, var(--color-main-bg) 61%);
+    background-position-y: 52%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .intro__content__container {
+    padding: 0 3.3rem;
+  }
+  .intro-heading {
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .intro {
+    padding-top: 7.5rem;
+    background: url('/images/bg-curvy-desktop.svg');
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .intro__content__container {
+    padding: 0 3rem;
+  }
+  .intro-heading {
+    margin-bottom: 3.2rem;
+  }
+  .intro-body {
+    max-width: 58.9rem;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 960px) {
+  .intro {
+    padding-bottom: 16.3rem;
+  }
+  .intro__content__container {
+    max-width: 73.4rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}
+
+
+.intro__image {
+  width: 100%;
+}
+.intro__image__container {
+  width: 81.167%;
+  margin: 0 auto;
+  max-width: 72rem;
+}
+@media screen and (max-width: 639px) {
+  .intro__image__container {
+    margin-bottom: 3.3rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .intro__image__container {
+    margin-bottom: 3.6rem;
+  }
+}
