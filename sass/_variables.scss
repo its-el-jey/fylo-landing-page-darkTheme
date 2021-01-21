@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,700&display=swap');
+
+:root {
+  --color-white: hsl(0, 0%, 100%);
+  --color-main-bg: hsl(218, 28%, 13%);
+  --color-lighter-bg: hsl(217, 28%, 15%);
+  --color-footer-bg: hsl(216, 53%, 9%);
+  --color-testimonials-bg: hsl(219, 30%, 18%);
+  --color-cyan: hsl(176, 68%, 64%);
+  --color-cyan-blue: linear-gradient(159deg, hsl(176, 68%, 64%) 0%, hsl(198, 60%, 50%) 65%);
+
+  --font-raleway: 'Raleway', sans-serif;
+  --font-opensans: 'Open Sans', sans-serif;
+
+  --weight-regular: 400;
+  --weight-bold: 700;
+  
+  --transition: 400ms ease-in;
+  --border-radius-small: 0.393rem;
+  --border-radius-cta: 0.9rem;
+  --border-radius-default: 2.4rem;
+  --border-radius-large: 2.8rem;
+}
